@@ -1,51 +1,67 @@
 body {
- font-family: 'Abril Fatface', cursive;
- margin-top: 5%;
+	font-family: 'Abril Fatface', 'Lora', cursive;
+	margin-top: 5%;
 
 }
 
 input {
- font-family: 'Roboto';
- 
- 
+	font-family: 'Roboto';
+
+
 }
 
 .textie {
- font-family: 'Roboto';
- 
+	font-family: 'Roboto';
+
 }
+
 /* CSS code to change underline color
    For the materialize input field*/
+
 /* label focus color */
-   .input-field input[type=text]:focus + label {
-     color: black;
+
+.input-field input[type=text]:focus + label {
+	color: black;
 }
+
 /* label underline focus color */
-   .input-field input[type=text]:focus {
-     border-bottom: 1px solid #000;
-     box-shadow: 0 1px 0 0 #000;
-   }
+
+.input-field input[type=text]:focus {
+	border-bottom: 1px solid #000;
+	box-shadow: 0 1px 0 0 #000;
+}
 
 /* Fixed footer message */
-.footer{    position:absolute;    bottom:0;    width:100%;    height:60px;}
 
-/* Pointer on the h1 element when hovering */
-a,  input[type='submit'], input[type='image'], label[for], select, button, .pointer {
-    cursor: pointer;
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
 }
 
-::-webkit-input-placeholder { 
-    color:   black;
-    opacity: 0.8;
-    font-style: italic;
+/* Pointer on the h1 element when hovering */
+
+a,
+input[type='submit'],
+input[type='image'],
+label[for],
+select,
+button,
+.pointer {
+	cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+	color: black;
+	opacity: 0.8;
+	font-style: italic;
 }
 
 
 
 .waves-effect.waves-brown .waves-ripple {
-     /* The alpha value allows the text and background color
+	/* The alpha value allows the text and background color
      of the button to still show through. */
-      background-color: rgba(121, 85, 72, 0.65);
-    }
-
-
+	background-color: rgba(121, 85, 72, 0.65);
+}
