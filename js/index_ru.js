@@ -1,7 +1,7 @@
 //Beginning of jQuery ready Function
 $(document).ready(function () {
 	//Url to get a Random Wikipedia Article
-	var randomUrl = "https://en.wikipedia.org/wiki/Special:Random";
+	var randomUrl = "https://ru.wikipedia.org/wiki/Special:Random";
 	var autocomplete = document.getElementById("results");
 	var search = document.getElementById("search");
 	var input = " ";
@@ -24,7 +24,7 @@ $(document).ready(function () {
 
 		input = $("#search").val();
 		wikiApi =
-			"https://en.wikipedia.org/w/api.php?action=opensearch&search=" +
+			"https://ru.wikipedia.org/w/api.php?action=opensearch&search=" +
 			input +
 			"&format=json&origin=*";
 
